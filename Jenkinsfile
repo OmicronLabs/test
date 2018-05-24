@@ -7,9 +7,9 @@ pipeline {
 
   }
   stages {
-    stage('error') {
+    stage('') {
       steps {
-        echo 'Finished'
+        sh 'npm install'
       }
     }
   }
